@@ -12,9 +12,9 @@ import org.jetbrains.annotations.NotNull;
 public class BeamParticleType extends ParticleType<BeamParticleOptions> {
     private static final Codec<BeamParticleOptions> CODEC = RecordCodecBuilder.create(instance ->
             instance.group(
-                    Codec.FLOAT.fieldOf("r").forGetter(o -> o.r),
-                    Codec.FLOAT.fieldOf("g").forGetter(o -> o.g),
-                    Codec.FLOAT.fieldOf("b").forGetter(o -> o.b)
+                    Codec.FLOAT.fieldOf("r").forGetter(o -> o.r()),
+                    Codec.FLOAT.fieldOf("g").forGetter(o -> o.g()),
+                    Codec.FLOAT.fieldOf("b").forGetter(o -> o.b())
             ).apply(instance, BeamParticleOptions::new)
     );
 

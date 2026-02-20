@@ -6,14 +6,7 @@ import net.minecraft.core.particles.ParticleType;
 import net.minecraft.network.FriendlyByteBuf;
 import org.jetbrains.annotations.NotNull;
 
-public class BeamParticleOptions implements ParticleOptions {
-    public final float r, g, b;
-
-    public BeamParticleOptions(float r, float g, float b) {
-        this.r = r;
-        this.g = g;
-        this.b = b;
-    }
+public record BeamParticleOptions(float r, float g, float b) implements ParticleOptions {
 
     @Override
     public @NotNull ParticleType<?> getType() {

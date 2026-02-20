@@ -13,15 +13,13 @@ public class ClockworkTrialsConfig {
         COMMON = specPair.getLeft();
     }
 
-    public static class Common {
-        public final ForgeConfigSpec.IntValue entityTickSpeedMultiplier;
+    public record Common(ForgeConfigSpec.IntValue entityTickSpeedMultiplier) {
+            public Common(ForgeConfigSpec.Builder entityTickSpeedMultiplier) {
+                entityTickSpeedMultiplier.comment("Clockwork Trials Common side config settings").push("general");
 
-        public Common(ForgeConfigSpec.Builder builder) {
-            builder.comment("Clockwork Trials Common side config settings").push("general");
-
-            entityTickSpeedMultiplier = builder
-                    .comment("How many times faster should the entity's tick() be?")
-                    .defineInRange("entityTickSpeedMultiplier", 10, 1, 10000);
+                this.entityTickSpeedMultiplier = entityTickSpeedMultiplier
+                        .comment("How many times faster should the entity's tick() be?")
+                        .defineInRange("entityTickSpeedMultiplier", 10, 1, 10000);
+            }
         }
-    }
 }

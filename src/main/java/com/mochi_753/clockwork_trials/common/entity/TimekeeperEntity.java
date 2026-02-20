@@ -155,7 +155,7 @@ public class TimekeeperEntity extends PathfinderMob implements GeoEntity, Ranged
         if (this.level().isClientSide()) {
             super.tick();
         } else {
-            for (int i = 0; i < ClockworkTrialsConfig.COMMON.entityTickSpeedMultiplier.get(); i++) {
+            for (int i = 0; i < ClockworkTrialsConfig.COMMON.entityTickSpeedMultiplier().get(); i++) {
                 super.tick();
 
                 if (this.level() instanceof ServerLevel serverLevel) {

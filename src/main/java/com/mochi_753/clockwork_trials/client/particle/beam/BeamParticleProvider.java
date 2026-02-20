@@ -19,7 +19,7 @@ public class BeamParticleProvider implements ParticleProvider<BeamParticleOption
 
     @Override
     public @Nullable Particle createParticle(BeamParticleOptions options, ClientLevel level, double x, double y, double z, double dx, double dy, double dz) {
-        BeamParticle particle = new BeamParticle(level, x, y, z, spriteSet, options.r, options.g, options.b);
+        BeamParticle particle = new BeamParticle(level, x, y, z, spriteSet, options.r(), options.g(), options.b());
         particle.setParticleSpeed(dx, dy, dz);
         return particle;
     }
