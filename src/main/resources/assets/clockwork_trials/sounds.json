@@ -1,0 +1,50 @@
+{
+  "bell_rings": {
+    "sounds": [
+      {
+        "name": "clockwork_trials:bell_rings",
+        "stream": false
+      }
+    ]
+  },
+  "ticktock": {
+    "sounds": [
+      {
+        "name": "clockwork_trials:ticktock",
+        "stream": false
+      }
+    ]
+  },
+  "time_stop": {
+    "sounds": [
+      {
+        "name": "clockwork_trials:time_stop",
+        "stream": false
+      }
+    ]
+  },
+  "beam01": {
+    "sounds": [
+      {
+        "name": "clockwork_trials:beam01",
+        "stream": false
+      }
+    ]
+  },
+  "beam02": {
+    "sounds": [
+      {
+        "name": "clockwork_trials:beam01",
+        "stream": false
+      }
+    ]
+  },
+  "bgm": {
+    "sounds": [
+      {
+        "name": "clockwork_trials:bgm",
+        "stream": true
+      }
+    ]
+  }
+}

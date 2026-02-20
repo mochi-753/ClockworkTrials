@@ -1,0 +1,23 @@
+{
+  "targets": [
+    "swap"
+  ],
+  "passes": [
+    {
+      "name": "clockwork_trials:grayscale",
+      "intarget": "minecraft:main",
+      "outtarget": "swap",
+      "samplers": [
+        {
+          "name": "DiffuseSampler"
+        }
+      ],
+      "uniforms": []
+    },
+    {
+      "name": "blit",
+      "intarget": "swap",
+      "outtarget": "minecraft:main"
+    }
+  ]
+}

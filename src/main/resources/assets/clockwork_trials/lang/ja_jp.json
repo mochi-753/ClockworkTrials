@@ -1,0 +1,18 @@
+{
+  "death.attack.paradox.0": "%1$sはMinecraft 1.7.10のリリースが約%2$s年前だと気付いた",
+  "death.attack.paradox.1": "%1$sはMinecraft 1.12.2のリリースが約%3$s年前だと気付いた",
+  "death.attack.paradox.2": "%1$sは未来の自分に出会った",
+  "death.attack.paradox.3": "%1$sは時の流れに身を任せた",
+  "death.attack.paradox.4": "%1$sは昔のModpackを始めた。そして戻って来ることはなかった",
+  "death.attack.paradox.5": "%1$sは時の流れに直面した",
+  "death.attack.paradox.6": "%1$sはチェンジログを読み、壊れてしまった",
+  "death.attack.paradox.7": "%1$sはまだMinecraft 1.20.1が最新版だと思い込んでいた",
+  "death.attack.paradox.8": "%1$sはまたしてもエンドロールを見た",
+  "death.attack.paradox.9": "TimeParadox has been detected.",
+  "entity.clockwork_trials.the_timekeeper": "時の管理人",
+  "entity.clockwork_trials.summon": "§e§kSUMMON_ENTITY§r",
+  "entity.clockwork_trials.homing_projectile": "追尾弾",
+  "entity.clockwork_trials.beam": "ビーム",
+  "tabs.clockwork_trials.clockwork_trials_tab": "Clockwork Trials",
+  "item.clockwork_trials.the_timekeeper_spawn_egg": "時の管理人のスポーンエッグ"
+}

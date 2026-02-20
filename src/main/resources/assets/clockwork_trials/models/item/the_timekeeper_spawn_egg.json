@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "clockwork_trials:item/the_timekeeper_spawn_egg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "death.attack.paradox.0": "%1$s couldn't handle the fact that Minecraft 1.7.10 was released about %2$s years ago",
+  "death.attack.paradox.1": "%1$s couldn't handle the fact that Minecraft 1.12.2 was released　about %3$s years ago",
+  "death.attack.paradox.2": "%1$s met their future self",
+  "death.attack.paradox.3": "%1$s was lost in the flow of time",
+  "death.attack.paradox.4": "%1$s opened an old modpack... and never came back",
+  "death.attack.paradox.5": "%1$s faced the cruel passage of time",
+  "death.attack.paradox.6": "%1$s read the changelog... and broke reality",
+  "death.attack.paradox.7": "%1$s was trapped in version 1.20.1 forever",
+  "death.attack.paradox.8": "%1$s reached the credits... again",
+  "death.attack.paradox.9": "TimeParadox has been detected.",
+  "entity.clockwork_trials.the_timekeeper": "The Timekeeper",
+  "entity.clockwork_trials.summon": "§e§kSUMMON_ENTITY§r",
+  "entity.clockwork_trials.homing_projectile": "Homing missile",
+  "entity.clockwork_trials.beam": "Beam",
+  "tabs.clockwork_trials.clockwork_trials_tab": "Clockwork Trials",
+  "item.clockwork_trials.the_timekeeper_spawn_egg": "The Timekeeper Spawn Egg"
+}
