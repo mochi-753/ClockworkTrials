@@ -13,6 +13,7 @@ public class ClockworkTrialsConfig {
         COMMON = specPair.getLeft();
     }
 
+    // FIXME
     public record Common(ForgeConfigSpec.IntValue entityTickSpeedMultiplier) {
             public Common(ForgeConfigSpec.Builder entityTickSpeedMultiplier) {
                 entityTickSpeedMultiplier.comment("Clockwork Trials Common side config settings").push("general");
